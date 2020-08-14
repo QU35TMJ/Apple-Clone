@@ -1,0 +1,125 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    min-height: 830px;
+    max-height: 1472px;
+    box-sizing: border-box;
+  }
+  
+  main {
+    width: 100%;
+    /*margin-top: -50px;*/
+  }
+  
+.mainContainer {
+    background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+    background-position: center bottom;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+  }
+ul,
+li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .navbar {
+    width: 80%;
+    margin-top: 30px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.gradlink,
+.gradlinkwithouthover{
+  height: 20px;
+  width: 100px;
+  margin-right: -5px;
+  margin-top: 70px;
+  padding: 6px 10px 5px 10px;
+  background-color: rgb(43, 42, 42);
+  border: 1px solid rgb(153, 152, 152);
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, rgb(153, 152, 152) 0%, #4b4949 51%, rgb(167, 164, 164) 100%);
+}
+.gradlinkwithouthover{
+    width: 140px;
+  }
+.gradlink:hover {
+    background-image: linear-gradient(to top, #bebbbb 0%, #464646 51%, #1b1b1b 100%);
+  }
+.appleiconstyle {
+    font-size: 18px;
+  }
+.searchbtn {
+    width: 120px;
+    height: auto;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 12px;
+    background-image: linear-gradient(to top, rgb(180, 176, 176) 0%, #333232 51%, rgb(194, 194, 194) 100%);
+  }
+  
+  .ilinksearch {
+    position: absolute;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
+.gradlink a,
+.ilinksearch {
+  color: white;
+}
+  
+/*Verse*/
+.verse, .verseDetails, .verseDetails1, .verselink{
+    font-family: sans-serif, 'Open Sans';
+    color: rgb(240, 236, 236);
+    display: flex;
+    justify-content: center;
+}
+.verse{
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 40px;
+  }
+  
+.verseDetails{
+    margin-top: -70px;
+    font-size: 34px;
+  }
+  
+.verseDetails1{
+    font-size: 34px;
+    margin-top: -25px;
+  }
+  
+.verselink a{
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  /*images*/
+  .imageContainer {
+    width: 98.6%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-right: 0%;
+  }
+  
