@@ -122,4 +122,53 @@ li {
     grid-template-columns: 25% 25% 25% 25%;
     padding-right: 0%;
   }
+
+  /*Footer*/
+.footer-style {
+    width: 90%;
+    margin-right: 150px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+.first-footer {
+    justify-content: space-between;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+.first-footer p {
+    color: #464646;
+  }
+  
+.first-footer a {
+    padding: 5px;
+  }
+  
+.border {
+    border-right: 1px solid rgb(184, 181, 181);
+  }
+
+.border1 {
+    border-right: 1px solid rgb(184, 181, 181);
+    padding-right: 4px;
+  }
+  
+.usa-logo {
+    padding-top: -10px;
+    border-right: none;
+    height: 15px;
+  }
+  
+.second-footer p {
+    color: #464646;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+.footerpadding {
+    padding-left: 100px;
+  }
   
